@@ -17,7 +17,7 @@
   //数列の各項を表示する//
  for (i = 0;N>i;i++) {
    printf("a[%3d]=",i+1);
-   printf("%3d\n",a[i]);
+   printf("%3d",a[i]);
  }
      return 0 ; 
 }
