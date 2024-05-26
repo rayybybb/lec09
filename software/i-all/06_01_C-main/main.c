@@ -2,7 +2,7 @@
  #define N 150
  int main(void){
    int a[N], b[N];
-   int i;
+   int i,j,k,l;
    //キーボードから初項を入力する。//
   printf("初項を入力する\n");
   scanf("%d",&a[0]);
