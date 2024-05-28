@@ -1,0 +1,6 @@
+services:
+  mygcc:
+    build: ./
+    volumes:
+      - ./:/mnt
+    tty: true
